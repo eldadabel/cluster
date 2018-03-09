@@ -37,13 +37,17 @@
       <div class="container">
           <div class="pane">
               <h4>Ad Preview</h4>
-              <img src="images/ad_preview.jpg"/>
+              <div class="video-holder">
+                <video id="video-player" width="564" height="318" autoplay loop controls>
+                  <source src="videos/cluster_generic_1_1.mp4" type="video/mp4">
+                </video>
+              </div>
               <ul class="ratios">
-                <li><div class="r4-3">4:3</div></li>
-                <li><div class="r3-4">3:4</div></li>
-                <li class="disable"><div class="r16-9">16:9</div></li>
-                <li class="disable"><div class="r9-16">9:16</div></li>
-                <li class="disable"><div class="r1-1">1:1</div></li>
+                <li class="disable"><div class="r4-3">4:3</div></li>
+                <li class="disable"><div class="r3-4">3:4</div></li>
+                <li class="disable" vid-file="cluster_customized_16_9.mp4"><div class="r16-9">16:9</div></li>
+                <li class="disable" vid-file="cluster_customized_9_16.mp4"><div class="r9-16">9:16</div></li>
+                <li vid-file="cluster_customized_1_1.mp4"><div class="r1-1">1:1</div></li>
               </ul>
 
               <div class="clear"></div>

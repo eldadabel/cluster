@@ -382,6 +382,11 @@ header #login .sign-in-btn {
   margin-top: 20px;
   margin-bottom: 8px;
 }
+.ad-preview .pane .video-holder {
+  width: 564px;
+  height: 318px;
+  background-color: #111;
+}
 .ad-preview ul {
   list-style: none;
 }
@@ -402,6 +407,12 @@ header #login .sign-in-btn {
 .ad-preview .ratios li:first-of-type {
   margin-left: 0;
 }
+.ad-preview .ratios li:hover {
+  cursor: pointer;
+}
+.ad-preview .ratios li:hover div {
+  background-color: #d7f9ff;
+}
 .ad-preview .ratios li div {
   background-color: #fff;
   color: #000;
@@ -409,6 +420,7 @@ header #login .sign-in-btn {
   position: absolute;
   text-align: center;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
 }
 .ad-preview .ratios li .r4-3 {
   width: 66px;

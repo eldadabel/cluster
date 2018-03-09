@@ -15,6 +15,17 @@
 			}
 
 		});
+
+		$(".ratios li").click(function(){
+
+			if ($(this).attr('vid-file')) {
+
+				$(".ratios li").addClass("disable");
+				$(this).removeClass("disable");
+				$("#video-player").attr("src", "videos/" + $(this).attr('vid-file'));
+			}
+
+		});
 		
 	});
 

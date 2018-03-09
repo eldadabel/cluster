@@ -407,6 +407,12 @@ header {
 			margin-top: 20px;
 			margin-bottom: 8px;
 		}
+
+		.video-holder {
+			width: 564px;
+			height: 318px;
+			background-color: #111;
+		}
 	}
 
 	ul {
@@ -432,6 +438,15 @@ header {
 				margin-left: 0;
 			}
 
+			
+
+			&:hover{
+				cursor: pointer;
+				div {
+					background-color: #d7f9ff;
+				}
+			}
+
 
 
 			div {
@@ -441,6 +456,7 @@ header {
 				position: absolute;
 				text-align: center;
 				box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+				pointer-events: none;
 			}
 
 

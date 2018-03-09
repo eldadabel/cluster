@@ -49,7 +49,7 @@
 		});
 
 		$(".new-creatives ul li").click(function(){
-			window.location.href = "/ad_page.html";
+			window.location.href = "ad_page.html";
 		});
 		
 	});
