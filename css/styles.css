@@ -21,7 +21,6 @@ body {
   color: #00afff;
   border-radius: 15px;
   font-size: 13px;
-  width: 70px;
 }
 .btn-border:hover {
   background-color: #00afff;
@@ -38,7 +37,6 @@ body {
   color: #fff;
   border-radius: 15px;
   font-size: 13px;
-  width: 70px;
 }
 .btn-fill:hover {
   background: #00afff;
@@ -169,7 +167,7 @@ header #login .sign-in-btn {
 }
 #cover .watch-video {
   margin: 40px auto 0 auto;
-  width: 240px;
+  width: 250px;
   height: 53px;
 }
 #cover .watch-video .watch-icon {
@@ -227,6 +225,19 @@ header #login .sign-in-btn {
 .new-creatives ul li {
   float: left;
   margin: 10px;
+}
+.new-creatives ul li:hover img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.6);
+  /*transition: box-shadow 0.3s ease-in-out;*/
+  cursor: pointer;
 }
 .new-creatives ul li .details {
   width: 100%;
@@ -286,7 +297,6 @@ header #login .sign-in-btn {
   color: #00afff;
   border-radius: 15px;
   font-size: 13px;
-  width: 70px;
 }
 .main .add-filter-btn:hover {
   background-color: #00afff;

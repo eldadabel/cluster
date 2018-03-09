@@ -51,13 +51,6 @@
 		$(".new-creatives ul li").click(function(){
 			window.location.href = "/ad_page.html";
 		});
-
-		$(".new-creatives ul li").hover(function() {
-	        $(this).find("img").addClass('transition');
-	    
-	    }, function() {
-	         $(this).find("img").removeClass('transition');
-	    });
 		
 	});
 
