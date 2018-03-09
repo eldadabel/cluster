@@ -1,0 +1,1 @@
+function closePopUp(){$(".popup-fader").hide(),$(".popup").hide()}$(document).ready(function(){$(".assets li").click(function(){if($(this).attr("pop-id")){$(".popup-fader").show();var o=$(this).attr("pop-id");$("."+o).show(),$(".close-btn").click(function(){closePopUp()})}})});
